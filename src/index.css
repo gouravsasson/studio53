@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face{
+    font-family: "Light";
+    src: local( "FuturaCyrillic"),
+    url('./assets/fonts/FuturaCyrillicLight.ttf')
+}
+
+@font-face{
+    font-family: "bold";
+    src: local( "FuturaCyrillic"),
+    url('./assets/fonts/FuturaCyrillicBold.ttf')
+}
+
+@font-face{
+    font-family: "Medium";
+    src: local( "FuturaCyrillic"),
+    url('./assets/fonts/FuturaCyrillicMedium.ttf')
+}
