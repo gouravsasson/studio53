@@ -1,8 +1,10 @@
 import { Carousel } from "@material-tailwind/react";
 import { useState } from "react";
-import img1 from '../../assets/CoverPage/191014-Backside view.jpg'
-import img2 from '../../assets/CoverPage/191014-Backside view02.jpg'
-import img3 from '../../assets/CoverPage/191015-Exterior Front.jpg'
+import img1 from '../../assets/CoverPage/swi/1.webp'
+import img2 from '../../assets/CoverPage/swi/2.webp'
+import img3 from '../../assets/CoverPage/swi/3.webp'
+import img4 from '../../assets/CoverPage/swi/4.webp'
+import img5 from '../../assets/CoverPage/swi/5.webp'
 
 
 
@@ -16,8 +18,10 @@ export function Swi() {
     setAutoplayIndex(index);
   };
   return (
+   
+    
     <Carousel 
-    className="h-screen"
+   className="  h-screen"
     autoplay
     autoplayInterval={2000} 
     autoplayIndex={autoplayIndex}
@@ -39,6 +43,17 @@ export function Swi() {
         alt="image 3"
         className="h-full w-full object-cover"
       />
+      <img
+        src={img4}
+        alt="image 3"
+        className="h-full w-full object-cover"
+      />
+      <img
+        src={img5}
+        alt="image 3"
+        className="h-full w-full object-cover"
+      />
     </Carousel>
+    
   );
 }

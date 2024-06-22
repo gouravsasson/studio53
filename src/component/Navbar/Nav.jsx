@@ -1,10 +1,24 @@
 import React from "react";
-import { Navbar, MobileNav, Typography, Button, IconButton, Card } from "@material-tailwind/react";
+import { Navbar, MobileNav, IconButton, } from "@material-tailwind/react";
 import { Link, NavLink } from "react-router-dom";
 import logo from '../../assets/logo white.png';
+import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
 
 
 export function Nav() {
+
+  useGSAP(() => {
+    gsap.from('#text', {
+      duration: 3,
+      opacity: 0,
+      y: -100,
+      ease: "power3.out"
+    });
+  }, []);
+
+
+
   const [openNav, setOpenNav] = React.useState(false);
 
   React.useEffect(() => {
@@ -23,15 +37,17 @@ export function Nav() {
 
   return (
     <>
-      <Navbar className="sticky top-0 z-10 h-max max-w-full rounded-none px-4 py-2 lg:px-8 lg:py-4">
+      <Navbar className="sticky top-0 z-10  max-w-full rounded-none px-4 py-2 lg:px-8 lg:py-4">
         <div className="flex items-center justify-between text-blue-gray-900">
           <Link to='/'>
             <img
+            id="text"
               src={logo}
               alt="Logo"
               className=" hidden mr-4 cursor-pointer py-1.5 h-[100px] w-auto lg:block"
             />
             <img
+            id="text"
               src={logo}
               alt="Logo"
               className=" mr-4 cursor-pointer py-1.5 h-[60px] w-auto lg:hidden"
@@ -39,7 +55,7 @@ export function Nav() {
           </Link>
           <div className="flex items-center gap-4">
             {navList.map((item, index) => (
-              <NavLink key={index} to={item.href} className="mr-4 hidden lg:block font-boold">{item.name}</NavLink>
+              <NavLink id="text" key={index} to={item.href} className="mr-4 hidden lg:block font-boold">{item.name}</NavLink>
             ))}
             
             <IconButton

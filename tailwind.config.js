@@ -8,6 +8,12 @@ module.exports = withMT({
   ],
   theme: {
     extend: {
+      
+      height: {
+        '2/5': '40%', // Custom height class
+      },
+
+
       fontFamily :{
         'Light' : ['Light'],
         'boold': ['bold'],

@@ -1,12 +1,12 @@
 import * as React from "react";
 import ImageList from "@mui/material/ImageList";
 import ImageListItem from "@mui/material/ImageListItem";
-import img1 from "../../assets/CoverPage/30.4.2023-JVC tower-Day time-R1.jpg";
-import img2 from "../../assets/CoverPage/190724-GRID.jpg";
-import img3 from "../../assets/CoverPage/Coz Corner.jpg";
-import img4 from "../../assets/CoverPage/GF-Sofa.jpg";
-import img5 from "../../assets/CoverPage/Seating.jpg";
-import img6 from "../../assets/CoverPage/The Hieght.jpg";
+import img1 from "../../assets/portfolio/01.1.2023-Mujeer Villa-Family Living V1.webp";
+import img2 from "../../assets/portfolio/11.11.2022-Masood Masterbedroom-V2-Day.webp";
+import img3 from "../../assets/portfolio/14.2.2021-Project J_V2.webp";
+import img4 from "../../assets/portfolio/19.6.2022-Bathroom V1-2.webp";
+import img5 from "../../assets/portfolio/27.01.2023-Family Living.webp";
+import img6 from "../../assets/portfolio/GF-Sofa.webp";
 import { UilArrowCircleLeft } from "@iconscout/react-unicons";
 import { UilArrowCircleRight } from "@iconscout/react-unicons";
 import { UilTimes } from "@iconscout/react-unicons";
