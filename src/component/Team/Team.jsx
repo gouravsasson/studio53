@@ -9,7 +9,7 @@ function Team() {
             id:1,
             img: img1,
             name: "TAHA",
-            occupation : "FOUNDER",
+            occupation : "CREATIVE DRIECTOR/FOUNDER",
         },
         {
             id:2,

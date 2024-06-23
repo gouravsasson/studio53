@@ -5,11 +5,11 @@ import Work from "./Portfolio";
 function Home() {
   return (
     <>
-   <div className="flex-grow">
+   <div className=" h-screen ">
         <Swi />
       </div>
       
-      <div className="   lg:flex my-48 mx-10 gap-96 "> 
+      <div className="   lg:flex mb-48 mx-16 gap-96 "> 
 
       <h1 className=" mb-5 text-4xl  font-boold">About</h1>
       <div className=" text-2xl font-Medium">Studio53 is an international architectural 3D visualization bureau. We create 3D renders for Developers, Creative Companies, Architects & Interior Designers worldwide. Our clients are professionals who focus on the quality of working processes, including the visual presentation of their projects. We help to realize their ideas and concepts through realistic 3D images. <br />

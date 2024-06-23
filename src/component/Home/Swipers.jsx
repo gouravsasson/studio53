@@ -21,7 +21,7 @@ export function Swi() {
    
     
     <Carousel 
-   className="  h-screen"
+   className=" absolute top-0  h-screen"
     autoplay
     autoplayInterval={2000} 
     autoplayIndex={autoplayIndex}
@@ -54,6 +54,8 @@ export function Swi() {
         className="h-full w-full object-cover"
       />
     </Carousel>
+    
+    
     
   );
 }
