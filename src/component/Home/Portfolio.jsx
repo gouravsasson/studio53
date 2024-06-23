@@ -110,7 +110,7 @@ export default function Work() {
     
     <>
     <div className=" hidden md:block md:portfolio-container md: mx-10  "  style={{ backgroundColor: "white" }}>
-    <div className="text-4xl text-center font-boold">PORTFOLIO</div>
+    <div className="text-4xl text-center font-Medium">PORTFOLIO</div>
     {openModal && (
       <div className="sliderWrap">
         <UilTimes className="btnClose" onClick={handleCloseModal} />
@@ -153,7 +153,7 @@ export default function Work() {
   
   
   <div className=" portfolio-container mx-2 md:hidden  "  style={{ backgroundColor: "white" }}>
-    <div className="text-4xl text-center font-boold">PORTFOLIO</div>
+    <div className="text-4xl text-center font-Medium">PORTFOLIO</div>
     {openModal && (
       <div className="sliderWrap">
         <UilTimes className="btnClose" onClick={handleCloseModal} />

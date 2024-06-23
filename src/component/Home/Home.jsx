@@ -6,11 +6,11 @@ function Home() {
     <>
       <div className="  h-screen ">
         <Swi />
-      </div>
+      </div> 
 
       <div className="   lg:flex mb-48 mx-16 gap-96 ">
-        <h1 className=" mb-5 text-4xl  font-boold">About</h1>
-        <div className=" text-2xl font-Medium">
+        <h1 className=" mb-5 text-4xl font-Medium">About</h1>
+        <div className=" text-2xl font-Light">
           Studio53 is an international architectural 3D visualization bureau. We
           create 3D renders for Developers, Creative Companies, Architects &
           Interior Designers worldwide. Our clients are professionals who focus

@@ -1,8 +1,6 @@
 import { Typography } from "@material-tailwind/react";
 import logo from '../../assets/logo white.png';
-import { UilInstagram, UilBehance,UilLinkedinAlt } from '@iconscout/react-unicons';
-
-
+import { UilInstagram, UilBehance, UilLinkedinAlt } from '@iconscout/react-unicons';
 
 const LINKS = [
   {
@@ -14,7 +12,7 @@ const LINKS = [
     items: [
       <UilInstagram className="h-7 w-7" />,
       <UilBehance className="h-7 w-7" />,
-      < UilLinkedinAlt className="h-7 w-7" />,
+      <UilLinkedinAlt className="h-7 w-7" />,
     ],
   },
   {
@@ -29,20 +27,20 @@ export function Footer() {
   return (
     <footer className="my-48 relative w-full">
       <div className="mx-auto w-full max-w-7xl px-8">
-        <div className="grid grid-cols-1 justify-between  md:grid-cols-3">
-          <img className="h-[70px]" src={logo} alt="" />
-          <div className="grid col-span-2 grid-cols-3 justify-between gap-4">
+        <div className="flex flex-col items-center md:grid md:grid-cols-3 md:items-start">
+          <img className="h-[70px] mb-6 md:mb-0" src={logo} alt="Logo" />
+          <div className="md:grid col-span-2 grid-cols-3 justify-between gap-4">
             {LINKS.map(({ title, items }) => (
               <ul key={title}>
                 <Typography
                   variant="small"
                   color="blue-gray"
-                  className="mb-3 font-medium opacity-40"
+                  className="flex justify-center mt-10 md:mt-0 md:mb-3 font-medium opacity-40"
                 >
                   {title}
                 </Typography>
                 {title === "FOLLOW" ? (
-                  <div className="flex gap-4">
+                  <div className="flex justify-center mt-5 gap-4">
                     {items.map((link, index) => (
                       <Typography
                         as="a"
@@ -62,7 +60,7 @@ export function Footer() {
                         as="a"
                         href="#"
                         color="gray"
-                        className="py-1.5 font-normal transition-colors hover:text-blue-gray-900"
+                        className="flex justify-center py-1.5 font-normal transition-colors hover:text-blue-gray-900"
                       >
                         {link}
                       </Typography>
@@ -78,7 +76,7 @@ export function Footer() {
             variant="small"
             className="mb-4 text-center font-normal text-blue-gray-900 md:mb-0"
           >
-            &copy; {currentYear} <a href="">Studio53</a>. All Rights Reserved.
+            &copy; {currentYear} <a href="#">Studio53</a>. All Rights Reserved.
           </Typography>
         </div>
       </div>
