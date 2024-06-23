@@ -21,7 +21,7 @@ export function Swi() {
    
     
     <Carousel 
-   className=" absolute top-0  h-screen"
+   className=" absolute top-0 "
     autoplay
     autoplayInterval={2000} 
     autoplayIndex={autoplayIndex}

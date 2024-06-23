@@ -21,33 +21,32 @@ import img17 from "../../assets/New folder/17.webp";
 import img18 from "../../assets/New folder/18.webp";
 import img19 from "../../assets/New folder/19.webp";
 import img20 from "../../assets/New folder/20.webp";
-import img21 from "../../assets/New folder/6.webp";
-import img22 from "../../assets/New folder/6.webp";
-import img23 from "../../assets/New folder/6.webp";
-import img24 from "../../assets/New folder/6.webp";
-import img25 from "../../assets/New folder/6.webp";
-import img26 from "../../assets/New folder/6.webp";
-import img27 from "../../assets/New folder/6.webp";
-import img28 from "../../assets/New folder/6.webp";
-import img29 from "../../assets/New folder/6.webp";
-import img30 from "../../assets/New folder/6.webp";
-import img31 from "../../assets/New folder/6.webp";
-import img32 from "../../assets/New folder/6.webp";
-import img33 from "../../assets/New folder/6.webp";
-import img34 from "../../assets/New folder/6.webp";
-import img35 from "../../assets/New folder/6.webp";
-import img36 from "../../assets/New folder/6.webp";
-import img37 from "../../assets/New folder/6.webp";
-import img38 from "../../assets/New folder/6.webp";
-import img39 from "../../assets/New folder/6.webp";
-import img40 from "../../assets/New folder/6.webp";
-import img41 from "../../assets/New folder/6.webp";
-import img42 from "../../assets/New folder/6.webp";
-import img43 from "../../assets/New folder/6.webp";
-import img44 from "../../assets/New folder/6.webp";
-import img45 from "../../assets/New folder/6.webp";
-import img46 from "../../assets/New folder/6.webp";
-import img47 from "../../assets/New folder/6.webp";
+import img21 from "../../assets/New folder/21.webp";
+import img22 from "../../assets/New folder/22.webp";
+import img23 from "../../assets/New folder/23.webp";
+import img24 from "../../assets/New folder/24.webp";
+import img25 from "../../assets/New folder/25.webp";
+import img26 from "../../assets/New folder/26.webp";
+import img28 from "../../assets/New folder/28.webp";
+import img29 from "../../assets/New folder/29.webp";
+import img30 from "../../assets/New folder/30.webp";
+import img31 from "../../assets/New folder/31.webp";
+import img32 from "../../assets/New folder/32.webp";
+import img33 from "../../assets/New folder/33.webp";
+import img34 from "../../assets/New folder/34.webp";
+import img35 from "../../assets/New folder/35.webp";
+import img36 from "../../assets/New folder/36.webp";
+import img37 from "../../assets/New folder/37.webp";
+import img38 from "../../assets/New folder/38.webp";
+import img39 from "../../assets/New folder/39.webp";
+import img40 from "../../assets/New folder/40.webp";
+import img41 from "../../assets/New folder/41.webp";
+import img42 from "../../assets/New folder/42.webp";
+import img43 from "../../assets/New folder/43.webp";
+import img44 from "../../assets/New folder/44.webp";
+import img45 from "../../assets/New folder/45.webp";
+import img46 from "../../assets/New folder/46.webp";
+import img47 from "../../assets/New folder/47.webp";
 
 
 
@@ -184,7 +183,152 @@ const itemData = [
     title: "Image 17",
     rows: 2,
     cols: 1,
-  },
+  },{
+    img: img18,
+    title: "Image 18",
+    rows: 2,
+    cols: 1,
+  },{
+    img: img19,
+    title: "Image 19",
+    rows: 2,
+    cols: 1,
+  },{
+    img: img20,
+    title: "Image 20",
+    rows: 2,
+    cols: 1,
+  },{
+    img: img21,
+    title: "Image 21",
+    rows: 2,
+    cols: 1,
+  },{
+    img: img22,
+    title: "Image 22",
+    rows: 2,
+    cols: 1,
+  },{
+    img: img23,
+    title: "Image 23",
+    rows: 2,
+    cols: 1,
+  },{
+    img: img24,
+    title: "Image 24",
+    rows: 2,
+    cols: 1,
+  },{
+    img: img25,
+    title: "Image 25",
+    rows: 2,
+    cols: 1,
+  },{
+    img: img26,
+    title: "Image 26",
+    rows: 2,
+    cols: 1,
+  },{
+    img: img28,
+    title: "Image 28",
+    rows: 2,
+    cols: 1,
+  },{
+    img: img29,
+    title: "Image 29",
+    rows: 2,
+    cols: 1,
+  },{
+    img: img30,
+    title: "Image 30",
+    rows: 2,
+    cols: 1,
+  },{
+    img: img31,
+    title: "Image 31",
+    rows: 2,
+    cols: 1,
+  },{
+    img: img32,
+    title: "Image 32",
+    rows: 2,
+    cols: 1,
+  },{
+    img: img33,
+    title: "Image 33",
+    rows: 2,
+    cols: 1,
+  },{
+    img: img34,
+    title: "Image 34",
+    rows: 2,
+    cols: 1,
+  },{
+    img: img35,
+    title: "Image 35",
+    rows: 2,
+    cols: 1,
+  },{
+    img: img36,
+    title: "Image 36",
+    rows: 2,
+    cols: 1,
+  },{
+    img: img37,
+    title: "Image 37",
+    rows: 2,
+    cols: 1,
+  },{
+    img: img38,
+    title: "Image 38",
+    rows: 2,
+    cols: 1,
+  },{
+    img: img39,
+    title: "Image 39",
+    rows: 2,
+    cols: 1,
+  },{
+    img: img40,
+    title: "Image 40",
+    rows: 2,
+    cols: 1,
+  },{
+    img: img41,
+    title: "Image 41",
+    rows: 2,
+    cols: 1,
+  },{
+    img: img42,
+    title: "Image 42",
+    rows: 2,
+    cols: 1,
+  },{
+    img: img43,
+    title: "Image 43",
+    rows: 2,
+    cols: 1,
+  },{
+    img: img44,
+    title: "Image 44",
+    rows: 2,
+    cols: 1,
+  },{
+    img: img45,
+    title: "Image 45",
+    rows: 2,
+    cols: 1,
+  },{
+    img: img46,
+    title: "Image 46",
+    rows: 2,
+    cols: 1,
+  },{
+    img: img47,
+    title: "Image 47",
+    rows: 2,
+    cols: 1,
+  }
 
   
 ];
