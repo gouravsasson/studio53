@@ -1,3 +1,5 @@
+import React from "react";
+import { Link, NavLink } from "react-router-dom";
 import { Typography } from "@material-tailwind/react";
 import logo from '../../assets/logo white.png';
 import { UilInstagram, UilBehance, UilLinkedinAlt } from '@iconscout/react-unicons';
@@ -5,25 +7,36 @@ import { UilInstagram, UilBehance, UilLinkedinAlt } from '@iconscout/react-unico
 const LINKS = [
   {
     title: "MENU",
-    items: ["Home", "Project", "Contact US"],
+    items: [
+      { name: "Home", href: "/" },
+      { name: "Projects", href: "/Projects" },
+      { name: "Contacts", href: "/contacts" },
+    ],
   },
   {
     title: "FOLLOW",
     items: [
-      <UilInstagram className="h-7 w-7" />,
-      <UilBehance className="h-7 w-7" />,
-      <UilLinkedinAlt className="h-7 w-7" />,
+      { icon: <UilInstagram className="h-7 w-7" />, href: "https://www.instagram.com" },
+      { icon: <UilBehance className="h-7 w-7" />, href: "https://www.behance.net" },
+      { icon: <UilLinkedinAlt className="h-7 w-7" />, href: "https://www.linkedin.com" },
     ],
   },
   {
     title: "CONTACTS",
-    items: ["+971557089953", "E-mail: taha@studio53tm.com"],
+    items: [
+      { name: "+971557089953", href: "tel:+971557089953" },
+      { name: "E-mail: taha@studio53tm.com", href: "mailto:taha@studio53tm.com" },
+    ],
   },
 ];
 
 const currentYear = new Date().getFullYear();
 
 export function Footer() {
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
   return (
     <footer className="my-48 relative w-full">
       <div className="mx-auto w-full max-w-7xl px-8">
@@ -41,28 +54,31 @@ export function Footer() {
                 </Typography>
                 {title === "FOLLOW" ? (
                   <div className="flex justify-center mt-5 gap-4">
-                    {items.map((link, index) => (
+                    {items.map(({ icon, href }, index) => (
                       <Typography
                         as="a"
-                        href="#"
+                        href={href}
                         key={index}
                         color="gray"
                         className="py-1.5 font-normal transition-colors hover:text-blue-gray-900"
+                        target="_blank"
+                        rel="noopener noreferrer"
                       >
-                        {link}
+                        {icon}
                       </Typography>
                     ))}
                   </div>
                 ) : (
-                  items.map((link, index) => (
+                  items.map(({ name, href }, index) => (
                     <li key={index}>
                       <Typography
-                        as="a"
-                        href="#"
+                        as={NavLink}
+                        to={href}
                         color="gray"
                         className="flex justify-center py-1.5 font-normal transition-colors hover:text-blue-gray-900"
+                        onClick={scrollToTop}
                       >
-                        {link}
+                        {name}
                       </Typography>
                     </li>
                   ))
@@ -76,7 +92,7 @@ export function Footer() {
             variant="small"
             className="mb-4 text-center font-normal text-blue-gray-900 md:mb-0"
           >
-            &copy; {currentYear} <a href="#">Studio53</a>. All Rights Reserved.
+            &copy; {currentYear} <Link to="#">Studio53</Link>. All Rights Reserved.
           </Typography>
         </div>
       </div>
