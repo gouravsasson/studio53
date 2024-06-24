@@ -2,6 +2,7 @@ import React from 'react'
 import img1 from "../../assets/team/taha.jpeg"
 import img2 from '../../assets/team/Biljana.jpeg'
 import img3 from '../../assets/team/Minhaj.jpg'
+import img4 from "../../assets/team/4.webp"
 
 function Team() {
     const item=[
@@ -25,7 +26,7 @@ function Team() {
         },
         {
             id:3,
-            
+            img:img4,
             name: "PAWAN",
             occupation : "SOCIAL MEDIA MANAGER",
         },

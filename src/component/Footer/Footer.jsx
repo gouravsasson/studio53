@@ -16,9 +16,9 @@ const LINKS = [
   {
     title: "FOLLOW",
     items: [
-      { icon: <UilInstagram className="h-7 w-7" />, href: "https://www.instagram.com" },
-      { icon: <UilBehance className="h-7 w-7" />, href: "https://www.behance.net" },
-      { icon: <UilLinkedinAlt className="h-7 w-7" />, href: "https://www.linkedin.com" },
+      { icon: <UilInstagram className="h-7 w-7" />, href: "https://www.instagram.com/studio53.tm/" },
+      { icon: <UilBehance className="h-7 w-7" />, href: "https://www.behance.net/tahamalik3" },
+      { icon: <UilLinkedinAlt className="h-7 w-7" />, href: "https://www.linkedin.com/in/studio-fifty-three-94b5b4208/" },
     ],
   },
   {
