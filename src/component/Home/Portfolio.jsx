@@ -1,12 +1,33 @@
 import * as React from "react";
 import ImageList from "@mui/material/ImageList";
 import ImageListItem from "@mui/material/ImageListItem";
-import img1 from "../../assets/portfolio/01.1.2023-Mujeer Villa-Family Living V1.webp";
-import img2 from "../../assets/portfolio/11.11.2022-Masood Masterbedroom-V2-Day.webp";
-import img3 from "../../assets/portfolio/GF-Round Seating with flower.webp";
-import img4 from "../../assets/portfolio/19.6.2022-Bathroom V1-2.webp";
-import img5 from "../../assets/portfolio/27.01.2023-Family Living.webp";
-import img6 from "../../assets/portfolio/GF-Sofa.webp";
+import img1 from "../../assets/portfolio/1.webp";
+import img2 from "../../assets/portfolio/2.webp";
+import img3 from "../../assets/portfolio/3.webp";
+import img4 from "../../assets/portfolio/4.webp";
+import img5 from "../../assets/portfolio/5.webp";
+import img6 from "../../assets/portfolio/6.webp";
+import img7 from "../../assets/portfolio/7.webp";
+import img8 from "../../assets/portfolio/8.webp";
+import img9 from "../../assets/portfolio/9.webp";
+import img10 from "../../assets/portfolio/10.webp";
+import img11 from "../../assets/portfolio/11.webp";
+import img12 from "../../assets/portfolio/12.webp";
+import img13 from "../../assets/portfolio/13.webp";
+import img14 from "../../assets/portfolio/14.webp";
+import img15 from "../../assets/portfolio/15.webp";
+import img16 from "../../assets/portfolio/16.webp";
+import img17 from "../../assets/portfolio/17.webp";
+import img18 from "../../assets/portfolio/18.webp";
+import img19 from "../../assets/portfolio/19.webp";
+import img20 from "../../assets/portfolio/20.webp";
+import img21 from "../../assets/portfolio/21.webp";
+import img22 from "../../assets/portfolio/22.webp";
+import img23 from "../../assets/portfolio/23.webp";
+import img24 from "../../assets/portfolio/24.webp";
+import img25 from "../../assets/portfolio/25.webp";
+import img26 from "../../assets/portfolio/26.webp";
+import img27 from "../../assets/portfolio/27.webp";
 import { UilArrowCircleLeft } from "@iconscout/react-unicons";
 import { UilArrowCircleRight } from "@iconscout/react-unicons";
 import { UilTimes } from "@iconscout/react-unicons";
@@ -20,7 +41,7 @@ const itemData = [
     title: "Image 1",
     rows: 8,
     cols: 2,
-    rows1: 1,
+    rows1: 2,
     cols1: 2,
   },
   {
@@ -35,6 +56,14 @@ const itemData = [
     img: img3,
     title: "Image 3",
     rows: 7,
+    cols: 2,
+    rows1: 2,
+    cols1: 2,
+  },
+  {
+    img: img4,
+    title: "Image 4",
+    rows: 5,
     cols: 2,
     rows1: 2,
     cols1: 2,
@@ -56,14 +85,173 @@ const itemData = [
     cols1: 2,
   },
   {
-    img: img4,
-    title: "Image 4",
-    rows: 5,
+    img: img7,
+    title: "Image 7",
+    rows: 8,
     cols: 2,
-    rows1: 1,
+    rows1: 2,
     cols1: 2,
   },
-  
+  {
+    img: img8,
+    title: "Image 8",
+    rows: 6,
+    cols: 2,
+    rows1: 2,
+    cols1: 2,
+  },
+  {
+    img: img9,
+    title: "Image 9",
+    rows: 7,
+    cols: 2,
+    rows1: 2,
+    cols1: 2,
+  },
+  {
+    img: img10,
+    title: "Image 10",
+    rows: 5,
+    cols: 2,
+    rows1: 2,
+    cols1: 2,
+  },
+  {
+    img: img11,
+    title: "Image 11",
+    rows: 4,
+    cols: 2,
+    rows1: 2,
+    cols1: 2,
+  },
+  {
+    img: img12,
+    title: "Image 12",
+    rows: 6,
+    cols: 2,
+    rows1: 2,
+    cols1: 2,
+  },
+  {
+    img: img13,
+    title: "Image 13",
+    rows: 8,
+    cols: 2,
+    rows1: 2,
+    cols1: 2,
+  },
+  {
+    img: img14,
+    title: "Image 14",
+    rows: 6,
+    cols: 2,
+    rows1: 2,
+    cols1: 2,
+  },
+  {
+    img: img15,
+    title: "Image 15",
+    rows: 7,
+    cols: 2,
+    rows1: 2,
+    cols1: 2,
+  },
+  {
+    img: img16,
+    title: "Image 16",
+    rows: 5,
+    cols: 2,
+    rows1: 2,
+    cols1: 2,
+  },
+  {
+    img: img17,
+    title: "Image 17",
+    rows: 4,
+    cols: 2,
+    rows1: 2,
+    cols1: 2,
+  },
+  {
+    img: img18,
+    title: "Image 18",
+    rows: 6,
+    cols: 2,
+    rows1: 2,
+    cols1: 2,
+  },
+  {
+    img: img19,
+    title: "Image 19",
+    rows: 8,
+    cols: 2,
+    rows1: 2,
+    cols1: 2,
+  },
+  {
+    img: img20,
+    title: "Image 20",
+    rows: 6,
+    cols: 2,
+    rows1: 2,
+    cols1: 2,
+  },
+  {
+    img: img21,
+    title: "Image 21",
+    rows: 7,
+    cols: 2,
+    rows1: 2,
+    cols1: 2,
+  },
+  {
+    img: img22,
+    title: "Image 22",
+    rows: 5,
+    cols: 2,
+    rows1: 2,
+    cols1: 2,
+  },
+  {
+    img: img23,
+    title: "Image 23",
+    rows: 4,
+    cols: 2,
+    rows1: 2,
+    cols1: 2,
+  },
+  {
+    img: img24,
+    title: "Image 24",
+    rows: 6,
+    cols: 2,
+    rows1: 2,
+    cols1: 2,
+  },
+  {
+    img: img25,
+    title: "Image 25",
+    rows: 8,
+    cols: 2,
+    rows1: 2,
+    cols1: 2,
+  },
+  {
+    img: img26,
+    title: "Image 26",
+    rows: 10,
+    cols: 2,
+    rows1: 2,
+    cols1: 2,
+  },
+  // {
+  //   img: img27,
+  //   title: "Image 27",
+  //   rows: 6,
+  //   cols: 2,
+  //   rows1: 2,
+  //   cols1: 2,
+  // },
 ];
 
 function srcset(image, size, rows = 1, cols = 1) {
