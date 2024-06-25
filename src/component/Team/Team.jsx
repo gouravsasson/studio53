@@ -48,7 +48,7 @@ function Team() {
                         </div>
             
             <h1 className=' mb-4 text-2xl font-Medium'>{i.name}</h1>
-            <h1 className=' mb-4 text-xl font-light'>{i.occupation}</h1>
+            <h1 className=' mb-4 text-sm font-light'>{i.occupation}</h1>
         </div>
 
     ))}

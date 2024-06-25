@@ -40,16 +40,8 @@ function Home() {
       <div ref={aboutRef} className="lg:flex mb-48 mx-16 gap-96">
         <h1 className="mb-5 text-4xl font-Medium">About</h1>
         <div className="text-2xl font-Light">
-          Studio53 is an international architectural 3D visualization bureau. We
-          create 3D renders for Developers, Creative Companies, Architects &
-          Interior Designers worldwide. Our clients are professionals who focus
-          on the quality of working processes, including the visual presentation
-          of their projects. We help to realize their ideas and concepts through
-          realistic 3D images. <br />
-          We are able to work with spaces of different purpose and scale and
-          reveal the potential of each space using visual effects. Our
-          visualizations are the balance of photorealism and a unique artistic
-          vision.
+         Studio 53 is a global architectural 3D visualization studio that produces 3D renders for Developers, Creative Companies, Architects & Interior Designers worldwide. Our clientele comprises professionals who prioritize the quality of work processes, especially the visual representation of their projects. We assist in bringing their ideas and concepts to life through lifelike 3D images.
+We excel in working with spaces of various functions and sizes, enhancing each space's potential through visual effects. Our visualizations strike a balance between photorealism and a distinct artistic perspective.
         </div>
       </div>
       <Work />
