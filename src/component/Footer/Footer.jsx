@@ -16,9 +16,9 @@ const LINKS = [
   {
     title: "FOLLOW",
     items: [
-      { icon: <UilInstagram className="h-7 w-7" />, href: "https://www.instagram.com/studio53.tm/" },
-      { icon: <UilBehance className="h-7 w-7" />, href: "https://www.behance.net/tahamalik3" },
-      { icon: <UilLinkedinAlt className="h-7 w-7" />, href: "https://www.linkedin.com/in/studio-fifty-three-94b5b4208/" },
+      { icon: <UilInstagram className="h-10 w-10" />, href: "https://www.instagram.com/studio53.tm/" },
+      { icon: <UilBehance className="h-10 w-10"  />, href: "https://www.behance.net/tahamalik3" },
+      { icon: <UilLinkedinAlt className="h-10 w-10"  />, href: "https://www.linkedin.com/in/studio-fifty-three-94b5b4208/" },
     ],
   },
   {
@@ -38,22 +38,22 @@ export function Footer() {
   };
 
   return (
-    <footer className="my-48 relative w-full">
+    <footer className=" my-36 relative w-full">
       <div className="mx-auto w-full max-w-7xl px-8">
         <div className="flex flex-col items-center md:grid md:grid-cols-3 md:items-start">
           <img className="h-[70px] mb-6 md:mb-0" src={logo} alt="Logo" />
-          <div className="md:grid col-span-2 grid-cols-3 justify-between gap-4">
+          <div className="md:grid col-span-2  grid-cols-3 justify-between gap-4">
             {LINKS.map(({ title, items }) => (
               <ul key={title}>
                 <Typography
                   variant="small"
                   color="blue-gray"
-                  className="flex justify-center mt-10 md:mt-0 md:mb-3 font-medium opacity-40"
+                  className="flex   mt-10 md:mt-0 md:mb-3 font-semibold "
                 >
                   {title}
                 </Typography>
                 {title === "FOLLOW" ? (
-                  <div className="flex justify-center mt-5 gap-4">
+                  <div className=" flex  mt-5 gap-3">
                     {items.map(({ icon, href }, index) => (
                       <Typography
                         as="a"
@@ -75,7 +75,7 @@ export function Footer() {
                         as={NavLink}
                         to={href}
                         color="gray"
-                        className="flex justify-center py-1.5 font-normal transition-colors hover:text-blue-gray-900"
+                        className=" flex  py-1.5 font-normal transition-colors hover:text-blue-gray-900"
                         onClick={scrollToTop}
                       >
                         {name}

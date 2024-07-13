@@ -21,6 +21,7 @@
     "emailjs": "^4.0.3",
     "flowbite-react": "^0.10.1",
     "gsap": "^3.12.5",
+    "heroicons": "^2.1.5",
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.4",
     "react": "^18.2.0",
