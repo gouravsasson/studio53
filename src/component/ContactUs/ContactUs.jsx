@@ -47,12 +47,17 @@ function ContactUs() {
 
   return (
     <>
-      <div className="hidden md:block mx-16 mt-16">
-        <div className="grid grid-cols-8 grid-rows-2">
-          <div className="col-span-3">
+      <div className="hidden md:block py-[60px] px-[65px]">
+        <div className="flex ">
+          <div className=" basis-[40%]  pt-[52px] pl-[74px]">
             <div className="flex flex-col  gap-y-16">
-              <span className="mt-16">+971557089953</span>
-              <div>
+              
+              <div className=" flex flex-col">
+              <span className="">+971557089953</span>
+              <span className="">+971527425553</span>
+              </div>
+              
+              <div className=" flex flex-col gap-6">
               <span className="text-xl">E-mail:</span>
               <h1>info@studio53tm.com</h1>
               </div>
@@ -65,7 +70,7 @@ function ContactUs() {
                     viewBox="0 0 24 24"
                     strokeWidth={1.5}
                     stroke="#bf7c5a"
-                    className="size-8"
+                    className="size-12"
                   >
                     <path
                       strokeLinecap="round"
@@ -84,13 +89,13 @@ function ContactUs() {
               </div>
             </div>
           </div>
-          <div className="col-span-5 row-span-2">
-            <h1 className="mb-10 text-xl font-medium">Contact Us :</h1>
+          <div className="basis-[60%]">
+            <h1 className="mb-[30px] text-xl font-medium">Contact Us :</h1>
             <form ref={form} onSubmit={sendEmail} className=" flex flex-col  ">
-              <div className=" flex gap-4">
-                <div className=" basis-[50%]">
+              <div className=" flex gap-[20px]">
+                <div className=" basis-[50%] flex flex-col gap-[20px]">
                   <input
-                    className=" w-full mt-4 h-16 bg-[#d9d7d5] rounded-xl border-none placeholder:text-black pl-[14px]"
+                    className=" w-full  h-16 bg-[#d9d7d5] rounded-xl border-none placeholder:text-black pl-[14px]"
                     type="text"
                     name="user_name"
                     placeholder="Name*"
@@ -98,7 +103,7 @@ function ContactUs() {
                     onChange={handleChange}
                   />
                   <input
-                    className="w-full mt-4 h-16 bg-[#d9d7d5] rounded-xl border-none placeholder:text-black pl-[14px]"
+                    className="w-full  h-16 bg-[#d9d7d5] rounded-xl border-none placeholder:text-black pl-[14px]"
                     type="number"
                     name="user_number"
                     placeholder="Phone number*"
@@ -106,7 +111,7 @@ function ContactUs() {
                     onChange={handleChange}
                   />
                   <input
-                    className="w-full mt-4 h-16 bg-[#d9d7d5] rounded-xl border-none placeholder:text-black pl-[14px]"
+                    className="w-full  h-16 bg-[#d9d7d5] rounded-xl border-none placeholder:text-black pl-[14px]"
                     type="email"
                     name="user_email"
                     placeholder="E-mail*"
@@ -116,7 +121,7 @@ function ContactUs() {
                 </div>
 
                 <textarea
-                  className="  basis-[50%] w-full flex-row mt-4 bg-[#d9d7d5] rounded-xl placeholder:text-black pl-[14px] pt-[14px]"
+                  className="  basis-[50%] w-full   bg-[#d9d7d5] rounded-xl placeholder:text-black pl-[14px] pt-[14px]"
                   name="message"
                   placeholder="Message"
                   value={formData.message}
@@ -135,10 +140,43 @@ function ContactUs() {
         </div>
       </div>
 
-      <div className="w-80 mt-20 ml-10 flex flex-col lg:hidden">
-        <span className="mt-20">+971557089953</span>
+      <div className="w-80 mt-20 ml-10 flex flex-col gap-6 lg:hidden">
+
+        <div className=" flex flex-col">
+      <span className="">+971557089953</span>
+      <span className="">+971527425553</span>
+      </div>
+
+      <div>
         <span className="mt-10 text-xl font-medium">E-mail:</span>
         <h1>info@studio53tm.com</h1>
+
+        </div>
+        <div className="">
+                <div className="  ">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth={1.5}
+                    stroke="#bf7c5a"
+                    className="size-12"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+                    />
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"
+                    />
+                  </svg>
+
+                  <h1 className=" mt-3 text-xl">Dubai, UAE</h1>
+                </div>
+              </div>
         <h1 className="mt-10 text-xl font-medium">Contact Us :</h1>
         <form ref={form} onSubmit={sendEmail} className="flex flex-col">
           <div className="flex flex-col">
