@@ -3,7 +3,8 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { Swi } from "./Swipers";
 import Work from "./Portfolio";
-import img1 from "./../../assets/team/WhatsApp Image 2024-07-19 at 00.55.39_4a050166.jpg";
+
+import img1 from "./../../assets/team/taha2.jpg";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -54,16 +55,17 @@ function Home() {
         </div>
       </div>
 
-      {/* <div  className="lg:flex items-center mb-48 p-16 justify-between">
-        <div className=" basis-[40%]">
-          <img src={img1} alt="" />
-        </div>
+      <div  className="lg:flex items-center mb-48 p-16 justify-center gap-52">
+
+      <div className=" h-80  rounded-full overflow-hidden">
+  <img className="w-full h-full object-cover" src={img1} alt="Image description" />
+</div>
   
         <div>
           <h1 className="mb-5 text-4xl font-Medium">Founder</h1>
           <p className=" text-2xl font-Light">Hello, I'm Taha Malkapurwala, the <br /> founder of Studio53.With 18 Years of <br /> Full-time work experience across <br /> various companies,I possess extensive experties <br /> in the CGI industry.</p>
         </div>
-      </div> */}
+      </div>
       <Work />
     </>
   );
